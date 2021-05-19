@@ -1,11 +1,11 @@
-* RocketMQ  --  Kafka -- pulsar 对比（各优势/区别等等，结合深度分析）
-* 整个流程
-* 发送侧相关的：重试？批量？异常？
-* 存储相关：内存映射机制/刷盘机制/计算机虚拟内存/zero-copy--->存储相关机制
-* 通信相关：netty系列，整个通讯侧怎么来实现
-* 消费相关：rebalace机制，重试等
-* 特性相关：怎么做重试队列/死信队列/事务消息等等
-* java基础：Queue / CompletableFuture / CountDownLatch/ lock /File 等相关使用
-* 分布式一致性 怎么做的 （HA/raft协议等等）
-* 整个集群的监控怎么来做，运维相关的参数的配置优化
-* 对于JVM的设置 gc回收器的选择,以及jvm参数怎么来配合
+ RocketMQ  --  Kafka -- pulsar 对比（各优势/区别等等，结合深度分析）
+ 整个流程
+ 发送侧相关的：重试？批量？异常？
+ 存储相关：内存映射机制/刷盘机制/计算机虚拟内存/zero-copy--->存储相关机制
+ 通信相关：netty系列，整个通讯侧怎么来实现
+ 消费相关：rebalace机制，重试等
+ 特性相关：怎么做重试队列/死信队列/事务消息等等
+ java基础：Queue / CompletableFuture / CountDownLatch/ lock /File 等相关使用
+ 分布式一致性 怎么做的 （HA/raft协议等等）
+ 整个集群的监控怎么来做，运维相关的参数的配置优化
+ 对于JVM的设置 gc回收器的选择,以及jvm参数怎么来配合
