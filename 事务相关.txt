@@ -1,0 +1,2 @@
+1. 本地事务(mysql之InnerDB  redo undo mvcc)
+2. 分布式事务(CAP定律"、"Base理论)
